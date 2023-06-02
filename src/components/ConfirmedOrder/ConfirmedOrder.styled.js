@@ -20,8 +20,10 @@ export const ConfirmedTittle = styled.h2`
 `;
 export const ConfirmedTextWrapper = styled.div`
     display: flex;
+    justify-content: center;
     width: 500px;
     margin-bottom: 40px;
+    text-align: center;
 `;
 export const RelocationButton = styled.button`
     border: none;
