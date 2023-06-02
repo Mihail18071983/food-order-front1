@@ -7,7 +7,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename="/food-order-front1">
+    <BrowserRouter>
       <ShopContextProvider>
         <App />
       </ShopContextProvider>
